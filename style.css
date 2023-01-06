@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap');
+
+:root {
+    --azul: #0000FF;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-weight: 600;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--azul);
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    color: white;
+}
+
+
+nav {
+    display: flex;
+    justify-content: end;
+    gap: 2rem;
+    align-items: center;
+}
+
+button {
+    background-color: var(--azul);
+    border: none;
+    padding: .5rem;
+    font-weight: 400;
+}
+
+button a {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    margin-top: 5rem;
+    display: grid;
+    place-content: center;
+    grid-template-columns: 45% 45%;
+}
+
+
+main .tittle-container {
+    text-align: end;
+}
+
+main .tittle {
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+main .tittle .tittle_dot {
+    color: var(--azul);
+}
+
+main .contato {
+    padding: 1.5rem 2rem;
+    font-size: 1.5rem;
+}
+
+section {
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
